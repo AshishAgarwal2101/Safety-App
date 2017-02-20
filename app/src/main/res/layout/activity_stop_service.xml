@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="com.nothing.contacts.StopService">
+
+    <Button
+        android:id="@+id/stopServiceButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/stop"
+        android:onClick="StopServiceMethod" />
+
+    <TextView
+        android:id="@+id/tvStop"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#fff" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:text="Stop Alert"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22dp" />
+
+</RelativeLayout>

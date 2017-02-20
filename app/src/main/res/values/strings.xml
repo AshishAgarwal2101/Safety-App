@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Safety App</string>
+    <string name="title_activity_stop_service">StopService</string>
+    <string name="next"><![CDATA[Next >>]]></string>
+</resources>
